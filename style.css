@@ -1,0 +1,120 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.all {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    max-width: 90vw;
+    height: 590px;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.equi {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3%;
+}
+
+.image-container{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.eye{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5); /* turquoise semi-transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 0.5rem;
+}
+
+.eye img{
+    width: 25%;
+}
+
+.image-container:hover .eye {
+    opacity: 1;
+}
+
+.desc h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding-top: 0.625rem;
+}
+
+.desc p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.theor, .icon{
+    display: flex;
+}
+
+.icon p{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    margin-left: 0.313rem;
+}
+
+.timer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.25rem;
+}
+
+.timer p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-left: 0.313rem;
+}
+
+hr{
+    color: hsla(215, 32%, 27%, 0.542);
+    margin-bottom: 1.7rem;
+    width: 100%;
+}
+
+.avatar{
+    width: 20%;
+    margin-left: -3.75rem;
+    margin-top: -3.125rem;
+}
+
+.final p{
+    margin-left: -0.938rem;
+    margin-top: -1.875rem;
+    font-weight: 300;
+}
+
+.crea{
+    color: hsl(215, 51%, 70%);
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+}
